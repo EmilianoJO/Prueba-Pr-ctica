@@ -1,0 +1,9 @@
+from odoo import http
+from odoo.http import request
+
+class usuario(http.controller):
+	@http.route('/odoo_controller/odoo_controller/', auth='public')
+        def registroUsuario(self, **post):
+		try:
+				
+        	return  
